@@ -20,4 +20,9 @@ export class AppController {
     putHello(): string {
         return this.appService.getHello();
     }
+
+    @Delete()
+    deleteHello(): string {
+        return this.appService.getHello();
+    }
 }
