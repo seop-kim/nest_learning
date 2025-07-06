@@ -10,19 +10,4 @@ export class AppController {
     getHello(): string {
         return this.appService.getHello();
     }
-
-    @Post()
-    postHello(): string {
-        return this.appService.getHello();
-    }
-
-    @Put()
-    putHello(): string {
-        return this.appService.getHello();
-    }
-
-    @Delete()
-    deleteHello(): string {
-        return this.appService.getHello();
-    }
 }
