@@ -23,11 +23,11 @@ export class PostService {
     }
 
     async update(id: number, dto: UpdatePostDto): Promise<Post> {
-        await this.postRepository.update(id, dto);
+        this.postRepository.update(id, dto);
         return this.postRepository.findOne({where: {id}});
     }
 
     async remove(id: number): Promise<void> {
-        await this.postRepository.delete(id);
+        this.postRepository.delete(id);
     }
 }
