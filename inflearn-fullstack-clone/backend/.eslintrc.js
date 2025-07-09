@@ -8,7 +8,7 @@ module.exports = {
   plugins: ['@typescript-eslint/eslint-plugin'],
   extends: [
     'plugin:@typescript-eslint/recommended',
-    'plugin:prettier/recommended',
+    // 'plugin:prettier/recommended', // removed to disable prettier spacing errors
   ],
   root: true,
   env: {
