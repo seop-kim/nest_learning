@@ -18,9 +18,9 @@ logs/
 logs/**/*.log
 
 # Environment files
-.env
-.env.*
-!.env.example
+#.env
+#.env.*
+#!.env.example
 
 # IDE settings
 .idea/
