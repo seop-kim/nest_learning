@@ -2,5 +2,9 @@
   "dependencies": {
     "class-transformer": "^0.5.1",
     "class-validator": "^0.14.2"
-  }
+  },
+  "private": true,
+  "workspaces": ["code-fectory"],
+  "packageManager": "yarn@4.6.0+sha224.acd0786f07ffc6c933940eb65fc1d627131ddf5455bddcc295dc90fd",
+
 }
